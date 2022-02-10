@@ -27,10 +27,6 @@ Run npm install to install all dependencies
 
 npm start to run the application on a browser
 
-# Project live Demo
-
-- link [LiveDemon]()
-
 ## Show your support
 
  Give a ⭐️ if you like this project!

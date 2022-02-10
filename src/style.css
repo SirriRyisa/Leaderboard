@@ -37,9 +37,7 @@ h2{
 .list-item{
   width: 50%;
   list-style: none;
-  padding-bottom: 10px;
   border: 1px solid;
-  padding-right: 90px;
   margin-left: 20px;
 }
 
@@ -64,8 +62,7 @@ button{
   width: 70px;
   border-radius: 4px;
 }
-
-.one{
-  background-color: grey;
-  width: 220px
-}
+ li:nth-child(even){
+   background-color: grey;
+   width: 100%;
+ }

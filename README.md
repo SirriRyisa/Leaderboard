@@ -1,9 +1,11 @@
 # Leaderboard
 
-Leader board whos purpose is to pick scores from and API and render to the markup
+The Leader board is a game API application that gives users the flexibility to add their scores. You can use the form on your right to add name and score, then refresh the page to view output.
+
 # Build with 
  - HTML 
  - CSS
+ - JavaScript (Api)
  
 
 👤 **Author**

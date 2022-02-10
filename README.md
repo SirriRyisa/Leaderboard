@@ -17,19 +17,22 @@ The Leader board is a game API application that gives users the flexibility to a
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/SirriRyisa/Leaderboard).
 
 # Run Project
 
-Copy from github repo and clone into your PC
+Copy code from github repo and clone into your local PC
+
+cd into project
+
+Run npm init
 
 Run npm install to install all dependencies 
 
-npm start to run the application on a browser
+Run npm start to run the application on a browser
 
-# Project live Demo
+Or you can open from Live server
 
-- link [LiveDemon]()
 
 ## Show your support
 

@@ -5,7 +5,6 @@ const getScores = async () => {
   const data = await response.json();
   return data.result;
 };
-
 const setScores = async (obj) => {
   const response = await fetch(`${gameApi}`, {
     method: 'POST', 
@@ -13,11 +12,8 @@ const setScores = async (obj) => {
     headers: {
       'Content-Type': 'application/json; charset=UTF-8',
     },
-  
   });
-  
   await response.json();
-
 };
 
 export { getScores, setScores };

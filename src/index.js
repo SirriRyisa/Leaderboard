@@ -15,7 +15,7 @@ formSelect.addEventListener('submit', (e) => {
 const render = async () => {
   const list = await getScores();
   const htmlContainer = document.querySelector('.list-item');
-  htmlContainer.innerHTML = ''
+  htmlContainer.innerHTML = '';
   list.forEach((obj) => {
     htmlContainer.innerHTML += `<li>${obj.user}: ${obj.score}</li>`;
   });

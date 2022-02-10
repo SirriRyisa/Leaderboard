@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: blanchedalmond;
   width: 100%;
   margin: 30px;
-  /* margin-right: 90px; */
 }
 
 .big-container {
@@ -21,52 +20,47 @@ body{
   color: black;
 }
 
-.main-container{
+.main-container {
   display: flex;
-  flex-direction: space;
   justify-content: space-evenly;
 }
 
-h2{
-  /* padding-top: 40px; */
+h2 {
   font-size: 16px;
   padding-right: 60%;
   padding-top: 40px;
   margin-right: 0;
 }
 
-.list-item{
+.list-item {
   width: 50%;
   list-style: none;
-  padding-bottom: 10px;
   border: 1px solid;
-  padding-right: 90px;
   margin-left: 20px;
 }
 
 li {
   margin: 0 auto;
   padding: 10px;
-  
 }
 
-p{
+p {
   font-size: 30px;
 }
 
-input{
+input {
   padding: 10px;
-  margin: 10px
+  margin: 10px;
 }
 
-button{
+button {
   padding: 4px;
   margin: 10px;
   width: 70px;
   border-radius: 4px;
 }
 
-.one{
+li:nth-child(even) {
   background-color: grey;
-  width: 220px
+  width: 100%;
 }

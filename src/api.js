@@ -8,7 +8,7 @@ const getScores = async () => {
 
 const setScores = async (obj) => {
   const response = await fetch(`${gameApi}`, {
-    method: 'POST', 
+    method: 'POST',
     body: JSON.stringify(obj),
     headers: {
       'Content-Type': 'application/json; charset=UTF-8',

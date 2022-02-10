@@ -5,6 +5,7 @@ const getScores = async () => {
   const data = await response.json();
   return data.result;
 };
+
 const setScores = async (obj) => {
   const response = await fetch(`${gameApi}`, {
     method: 'POST', 

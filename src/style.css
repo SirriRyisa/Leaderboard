@@ -25,7 +25,7 @@ body {
   justify-content: space-evenly;
 }
 
-h2{
+h2 {
   font-size: 16px;
   padding-right: 60%;
   padding-top: 40px;
@@ -41,8 +41,7 @@ h2{
 
 li {
   margin: 0 auto;
-  padding: 10px;
-  
+  padding: 10px;  
 }
 
 p {
@@ -51,7 +50,7 @@ p {
 
 input {
   padding: 10px;
-  margin: 10px
+  margin: 10px;
 }
 
 button {
@@ -61,8 +60,7 @@ button {
   border-radius: 4px;
 }
 
-li:nth-child(even){
+li:nth-child(even) {
   background-color: grey;
   width: 100%;
- }
- 
+}
